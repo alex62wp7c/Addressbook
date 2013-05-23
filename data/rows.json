@@ -1,0 +1,559 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "ewtv-wftx",
+      "name" : "DSNY: Collection Tonnages",
+      "attribution" : "Department of Sanitation (DSNY)",
+      "averageRating" : 0,
+      "category" : "Environmental Sustainability",
+      "createdAt" : 1319037587,
+      "description" : "For each Community District, the tons of Refuse, Paper Recycling and Metal, Glass & Plastic Recycling that were collected by the Department of Sanitation (DSNY) during the calendar month.",
+      "displayType" : "table",
+      "downloadCount" : 166,
+      "numberOfComments" : 2,
+      "oid" : 348990,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1319037880,
+      "publicationGroup" : 246876,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1319037612,
+      "rowsUpdatedBy" : "k2fz-tf56",
+      "signed" : false,
+      "tableId" : 246876,
+      "totalTimesRated" : 0,
+      "viewCount" : 2053,
+      "viewLastModified" : 1363704628,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : 3145084,
+        "name" : "Month",
+        "dataTypeName" : "text",
+        "fieldName" : "month",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1605835,
+        "width" : 160,
+        "cachedContents" : {
+          "non_null" : 59,
+          "smallest" : "2011 / 09",
+          "null" : 0,
+          "largest" : "2011 / 09",
+          "top" : [ {
+            "count" : 20,
+            "item" : "2011 / 09"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3145085,
+        "name" : "Borough",
+        "dataTypeName" : "text",
+        "fieldName" : "borough",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1605836,
+        "width" : 184,
+        "cachedContents" : {
+          "non_null" : 59,
+          "smallest" : "Bronx",
+          "null" : 0,
+          "largest" : "Staten Island",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Manhattan"
+          }, {
+            "count" : 19,
+            "item" : "Bronx"
+          }, {
+            "count" : 18,
+            "item" : "Brooklyn"
+          }, {
+            "count" : 17,
+            "item" : "Queens"
+          }, {
+            "count" : 16,
+            "item" : "Staten Island"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3145086,
+        "name" : "CommunityDistrict",
+        "dataTypeName" : "number",
+        "fieldName" : "communitydistrict",
+        "position" : 4,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1605837,
+        "width" : 304,
+        "cachedContents" : {
+          "non_null" : 59,
+          "smallest" : "1",
+          "sum" : "438",
+          "null" : 0,
+          "average" : "7.423728813559322",
+          "largest" : "18",
+          "top" : [ {
+            "count" : 20,
+            "item" : "1"
+          }, {
+            "count" : 19,
+            "item" : "2"
+          }, {
+            "count" : 18,
+            "item" : "3"
+          }, {
+            "count" : 17,
+            "item" : "4"
+          }, {
+            "count" : 16,
+            "item" : "5"
+          }, {
+            "count" : 15,
+            "item" : "6"
+          }, {
+            "count" : 14,
+            "item" : "7"
+          }, {
+            "count" : 13,
+            "item" : "8"
+          }, {
+            "count" : 12,
+            "item" : "9"
+          }, {
+            "count" : 11,
+            "item" : "10"
+          }, {
+            "count" : 10,
+            "item" : "11"
+          }, {
+            "count" : 9,
+            "item" : "12"
+          }, {
+            "count" : 8,
+            "item" : "13"
+          }, {
+            "count" : 7,
+            "item" : "14"
+          }, {
+            "count" : 6,
+            "item" : "15"
+          }, {
+            "count" : 5,
+            "item" : "16"
+          }, {
+            "count" : 4,
+            "item" : "17"
+          }, {
+            "count" : 3,
+            "item" : "18"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3145087,
+        "name" : "RefuseTonsCollected",
+        "dataTypeName" : "number",
+        "fieldName" : "refusetonscollected",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1605838,
+        "width" : 328,
+        "cachedContents" : {
+          "non_null" : 59,
+          "smallest" : "1241.24",
+          "sum" : "229114.25",
+          "null" : 0,
+          "average" : "3883.292372881356",
+          "largest" : "7201.87",
+          "top" : [ {
+            "count" : 20,
+            "item" : "5975.13"
+          }, {
+            "count" : 19,
+            "item" : "4303.89"
+          }, {
+            "count" : 18,
+            "item" : "2813.21"
+          }, {
+            "count" : 17,
+            "item" : "5020.36"
+          }, {
+            "count" : 16,
+            "item" : "4496.98"
+          }, {
+            "count" : 15,
+            "item" : "5172"
+          }, {
+            "count" : 14,
+            "item" : "2991.34"
+          }, {
+            "count" : 13,
+            "item" : "6868.46"
+          }, {
+            "count" : 12,
+            "item" : "3930.76"
+          }, {
+            "count" : 11,
+            "item" : "4304.94"
+          }, {
+            "count" : 10,
+            "item" : "4251.46"
+          }, {
+            "count" : 9,
+            "item" : "3369.39"
+          }, {
+            "count" : 8,
+            "item" : "7201.87"
+          }, {
+            "count" : 7,
+            "item" : "5881.85"
+          }, {
+            "count" : 6,
+            "item" : "3758.73"
+          }, {
+            "count" : 5,
+            "item" : "6305.43"
+          }, {
+            "count" : 4,
+            "item" : "5155.77"
+          }, {
+            "count" : 3,
+            "item" : "6424.57"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3145088,
+        "name" : "PaperTonsCollected",
+        "dataTypeName" : "number",
+        "fieldName" : "papertonscollected",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1605839,
+        "width" : 316,
+        "cachedContents" : {
+          "non_null" : 59,
+          "smallest" : "80.88",
+          "sum" : "26230.97",
+          "null" : 0,
+          "average" : "444.5927118644068",
+          "largest" : "1232.56",
+          "top" : [ {
+            "count" : 20,
+            "item" : "653.01"
+          }, {
+            "count" : 19,
+            "item" : "584.42"
+          }, {
+            "count" : 18,
+            "item" : "376.24"
+          }, {
+            "count" : 17,
+            "item" : "414.94"
+          }, {
+            "count" : 16,
+            "item" : "375.58"
+          }, {
+            "count" : 15,
+            "item" : "724.31"
+          }, {
+            "count" : 14,
+            "item" : "463.59"
+          }, {
+            "count" : 13,
+            "item" : "929.72"
+          }, {
+            "count" : 12,
+            "item" : "546.35"
+          }, {
+            "count" : 11,
+            "item" : "448.43"
+          }, {
+            "count" : 10,
+            "item" : "448.11"
+          }, {
+            "count" : 9,
+            "item" : "566.36"
+          }, {
+            "count" : 8,
+            "item" : "505.05"
+          }, {
+            "count" : 7,
+            "item" : "593.86"
+          }, {
+            "count" : 6,
+            "item" : "272.92"
+          }, {
+            "count" : 5,
+            "item" : "723.06"
+          }, {
+            "count" : 4,
+            "item" : "678.55"
+          }, {
+            "count" : 3,
+            "item" : "933.83"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3145089,
+        "name" : "MGPTonsCollected",
+        "dataTypeName" : "number",
+        "fieldName" : "mgptonscollected",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1605840,
+        "width" : 292,
+        "cachedContents" : {
+          "non_null" : 59,
+          "smallest" : "76.03",
+          "sum" : "18412.23",
+          "null" : 0,
+          "average" : "312.0716949152542",
+          "largest" : "643.79",
+          "top" : [ {
+            "count" : 20,
+            "item" : "480.11"
+          }, {
+            "count" : 19,
+            "item" : "439.02"
+          }, {
+            "count" : 18,
+            "item" : "268.12"
+          }, {
+            "count" : 17,
+            "item" : "377.62"
+          }, {
+            "count" : 16,
+            "item" : "287.04"
+          }, {
+            "count" : 15,
+            "item" : "537.01"
+          }, {
+            "count" : 14,
+            "item" : "276.91"
+          }, {
+            "count" : 13,
+            "item" : "542.06"
+          }, {
+            "count" : 12,
+            "item" : "333.45"
+          }, {
+            "count" : 11,
+            "item" : "367.94"
+          }, {
+            "count" : 10,
+            "item" : "373.9"
+          }, {
+            "count" : 9,
+            "item" : "325.09"
+          }, {
+            "count" : 8,
+            "item" : "583.34"
+          }, {
+            "count" : 7,
+            "item" : "566.46"
+          }, {
+            "count" : 6,
+            "item" : "205.08"
+          }, {
+            "count" : 5,
+            "item" : "530.55"
+          }, {
+            "count" : 4,
+            "item" : "455.27"
+          }, {
+            "count" : 3,
+            "item" : "604.76"
+          } ]
+        },
+        "format" : {
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "Monthly"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "rowIdentifier" : "0",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "emailUnsubscribed" : false,
+        "privacyControl" : "login",
+        "profileLastModified" : 1331656907,
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session" ]
+      },
+      "query" : {
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "k2fz-tf56",
+        "displayName" : "Gary A",
+        "emailUnsubscribed" : true,
+        "privacyControl" : "login",
+        "profileLastModified" : 1337790089,
+        "roleName" : "administrator",
+        "screenName" : "Gary A",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session" ]
+      },
+      "tags" : [ "sanitation", "dsny", "refuse", "recycle", "recycling", "plastic", "metal", "paper", "community", "community district", "tonnage", "clean web" ],
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 1, "12FAFA4F-2F24-44B6-9236-03FF58282B47", 1, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Manhattan", "1", "1241.24", "420.95", "216.91" ]
+, [ 2, "3033777F-C16F-43A0-BA8F-1F9A1578D9F0", 2, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Manhattan", "2", "2245.23", "500.94", "269.77" ]
+, [ 3, "F2B781B6-5B76-484F-98C0-AA8BB7998518", 3, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Manhattan", "3", "3178.24", "388.52", "257.06" ]
+, [ 4, "CED632EC-A52C-41CC-BA8C-746D339A36E9", 4, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Manhattan", "4", "2279.71", "517.98", "335.69" ]
+, [ 5, "340788D3-B449-4620-A9E9-57CB6CF31FCA", 5, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Manhattan", "5", "1348.82", "278.28", "152.43" ]
+, [ 6, "29E8D9F1-D89C-4E21-A7DC-C06A1171AB9D", 6, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Manhattan", "6", "3117.88", "628.98", "385.61" ]
+, [ 7, "8781482E-25CA-4533-8317-DD19E77D9E11", 7, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Manhattan", "7", "5461.86", "1232.56", "617.15" ]
+, [ 8, "8996C736-21AB-4079-998A-FA5E27BDF881", 8, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Manhattan", "8", "5904.28", "1225.57", "643.79" ]
+, [ 9, "6F413063-79BB-479E-BFE8-5B122A797F2F", 9, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Manhattan", "9", "2717.01", "291.66", "190.29" ]
+, [ 10, "6C8CA947-2BD4-40B5-B60D-2D27C89806FB", 10, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Manhattan", "10", "2962.33", "224.69", "156.22" ]
+, [ 11, "BE950766-E957-4473-A6A3-87D4B04DD9BD", 11, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Manhattan", "11", "2329.99", "180.59", "110.67" ]
+, [ 12, "3C3EF8A9-C7D1-47C3-99FB-DA225E27AE9E", 12, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Manhattan", "12", "5281.14", "434.96", "380.6" ]
+, [ 13, "DC2BDC8F-2393-4BB0-8069-F66BBD306B9B", 13, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Bronx", "1", "2052.58", "91.27", "76.03" ]
+, [ 14, "E0AB2F29-5D01-45FE-BB7F-CC8AFBEB7BA9", 14, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Bronx", "2", "1664.38", "82.04", "97.48" ]
+, [ 15, "5C959B45-7A66-441F-8293-16FC9A41C994", 15, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Bronx", "3", "1917.67", "80.88", "78.65" ]
+, [ 16, "78A21535-E6D7-438F-8D67-41B8BD68472B", 16, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Bronx", "4", "4588.12", "169.44", "167.9" ]
+, [ 17, "FEDB40B0-FCF2-47F9-9DA1-02BE893F78B5", 17, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Bronx", "5", "3735.12", "164.09", "207.24" ]
+, [ 18, "C7276E56-9069-4017-92FC-9DAA26631318", 18, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Bronx", "6", "2328.64", "95.04", "112.25" ]
+, [ 19, "61C7737C-8839-4538-A911-0DC3BF62BAA1", 19, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Bronx", "7", "3926.07", "237.94", "244.82" ]
+, [ 20, "650DE0C1-4337-4E39-A640-1BF322139D17", 20, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Bronx", "8", "2651.04", "351.2", "237.54" ]
+, [ 21, "9FF7187B-8BFC-44C4-84E6-7E0D977FFEA7", 21, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Bronx", "9", "4510.36", "200.64", "235.91" ]
+, [ 22, "D1B84B35-D538-45E7-A9A6-B29EAFE75F24", 22, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Bronx", "10", "2860.96", "378.97", "274.43" ]
+, [ 23, "80954EAB-6E32-4D76-B120-A9B250447A2E", 23, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Bronx", "11", "3307.65", "333.6", "251.35" ]
+, [ 24, "77A297AA-6A2E-4899-8089-6990C0612A84", 24, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Bronx", "12", "4185.39", "390.3", "404.84" ]
+, [ 25, "BA28ED22-7723-4C59-8AD3-37217289A9B7", 25, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Brooklyn", "1", "4819.68", "535.61", "372.21" ]
+, [ 26, "E925CC86-4313-4C40-BAA4-6C0E0699233B", 26, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Brooklyn", "2", "2356.85", "472.87", "288.6" ]
+, [ 27, "5B6D150F-D1F3-4C18-862D-41F2138008D3", 27, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Brooklyn", "3", "4323.49", "253.98", "217.42" ]
+, [ 28, "4E7C03E9-56DE-4105-AC13-201796AC61FF", 28, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Brooklyn", "4", "3405.96", "192.22", "231.87" ]
+, [ 29, "84A3EFF7-CF3D-4212-A6B7-60729AC2C031", 29, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Brooklyn", "5", "4610.77", "242.86", "282.65" ]
+, [ 30, "9E4F7C89-755C-49F4-8098-EB0D40CE6D9A", 30, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Brooklyn", "6", "2444.26", "635.78", "377.47" ]
+, [ 31, "2666BD7E-124F-4FAD-AAAC-C49BA7EF6D22", 31, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Brooklyn", "7", "3490.23", "439.06", "307.33" ]
+, [ 32, "8999DA46-FE00-4902-9FB0-981D308E3D0C", 32, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Brooklyn", "8", "2880.5", "237.52", "194.48" ]
+, [ 33, "C4717F4B-4555-4385-822A-BD289296722C", 33, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Brooklyn", "9", "3310.09", "239.63", "163.42" ]
+, [ 34, "149A1033-9E90-47EF-BBCD-41C15942FA68", 34, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Brooklyn", "10", "3523.83", "577.12", "321.65" ]
+, [ 35, "6AA153F2-8A62-4A4D-8088-7547F1566180", 35, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Brooklyn", "11", "4984.23", "698.25", "388.23" ]
+, [ 36, "565E17AA-8548-4154-8AB9-4419FB6D3192", 36, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Brooklyn", "12", "6184.15", "767.46", "326.95" ]
+, [ 37, "52C6DF74-D07F-411C-BB52-C3AE0DB64DCB", 37, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Brooklyn", "13", "2292.82", "190.11", "165.43" ]
+, [ 38, "1BC3304F-7C64-4D52-B8BC-103CAE16144A", 38, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Brooklyn", "14", "5004.17", "477.62", "280.94" ]
+, [ 39, "F24B1925-3A59-4B08-A1D6-55CD21165DB1", 39, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Brooklyn", "15", "4790.05", "704.89", "388.61" ]
+, [ 40, "5B1EAF0C-2691-4806-8D83-64D378CF94B9", 40, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Brooklyn", "16", "1998.63", "102.8", "104.87" ]
+, [ 41, "3BD247AE-1C94-405C-8FBE-31299FCE82B7", 41, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Brooklyn", "17", "4672.69", "323.77", "341.74" ]
+, [ 42, "FAA38E7C-1722-4876-B9D0-2647C2702E5E", 42, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Brooklyn", "18", "5975.13", "653.01", "480.11" ]
+, [ 43, "1C3FD25A-FC17-4575-B878-0D9D42A7349C", 43, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Queens", "1", "4303.89", "584.42", "439.02" ]
+, [ 44, "AEDDA2E1-A083-405F-9D63-7AB1A1EBC6AD", 44, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Queens", "2", "2813.21", "376.24", "268.12" ]
+, [ 45, "B0A709C5-906D-459B-BA7A-2914CE42B3C6", 45, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Queens", "3", "5020.36", "414.94", "377.62" ]
+, [ 46, "BA0C34B7-7964-40B8-8812-FE698E503A7C", 46, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Queens", "4", "4496.98", "375.58", "287.04" ]
+, [ 47, "37A06EBF-5202-4BCD-8EA3-422949300DE9", 47, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Queens", "5", "5172", "724.31", "537.01" ]
+, [ 48, "067BB741-D7BA-46FE-81E0-281B0790DEDE", 48, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Queens", "6", "2991.34", "463.59", "276.91" ]
+, [ 49, "63DDCC0E-F39D-4DD2-8D9F-745A6C8465C0", 49, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Queens", "7", "6868.46", "929.72", "542.06" ]
+, [ 50, "672AFC0C-24AB-4E19-A2F6-84012B7F9C7E", 50, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Queens", "8", "3930.76", "546.35", "333.45" ]
+, [ 51, "4250E629-B3D0-46B1-8E10-B9FCECCA2522", 51, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Queens", "9", "4304.94", "448.43", "367.94" ]
+, [ 52, "86515ED4-1D3F-4CA0-983D-EC1F4EB8248A", 52, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Queens", "10", "4251.46", "448.11", "373.9" ]
+, [ 53, "D97E85C6-0638-47C9-ADFA-D9896DE5773D", 53, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Queens", "11", "3369.39", "566.36", "325.09" ]
+, [ 54, "FD30BCEA-D3FB-4C31-959B-1D1AAB4F3BF5", 54, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Queens", "12", "7201.87", "505.05", "583.34" ]
+, [ 55, "A0784AB6-EBE6-4C04-BA72-50CBC4B167E1", 55, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Queens", "13", "5881.85", "593.86", "566.46" ]
+, [ 56, "3A5A02D7-B101-4AF7-A440-F6FB19FDA582", 56, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Queens", "14", "3758.73", "272.92", "205.08" ]
+, [ 57, "0649A5FA-31FB-4823-9650-6C5921F0D94A", 57, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Staten Island", "1", "6305.43", "723.06", "530.55" ]
+, [ 58, "441643A9-746B-4740-94DB-CFBB74A842D2", 58, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Staten Island", "2", "5155.77", "678.55", "455.27" ]
+, [ 59, "68C9C71B-1D36-4F21-A1B6-063D60A81AAD", 59, 1319037612, "392753", 1319037612, "392753", "{\n}", "2011 / 09", "Staten Island", "3", "6424.57", "933.83", "604.76" ]
+ ]
+}

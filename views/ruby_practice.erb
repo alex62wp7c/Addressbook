@@ -1,0 +1,11 @@
+<h1>Ru...Bee</h1>
+<% myEntry1 = Entry.new("Alex", "4152981745", "5 Merrivale Rd ", "January 8", "New Notes") %>
+<% myEntry2 = Entry.new("Billy", "2129991010", "230 Washington Rd", "November 10", "Side Note") %>
+<% myEntry3 = Entry.new("George", "2122554510", "240 Seattle Ave", "June 23", "Main Note") %>
+
+<!-- need to call myEntries on an abstract level to group them all -->
+<% myEntry(1..3).each do |entry| %>
+	<h3><%= entry.address %></h3>
+	<h3><%= entry.getBirthday %></h3>
+	<h3><%= entry.getNotes %></h3>
+<% end %>

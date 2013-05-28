@@ -1,12 +1,17 @@
-<h1>Ru...Bee</h1>
-<% myEntry1 = Entry.new("Alex", "4152981745", "5 Merrivale Rd ", "January 8", "New Notes") %>
-<% myEntry2 = Entry.new("Billy", "2129991010", "230 Washington Rd", "November 10", "Side Note") %>
-<% myEntry3 = Entry.new("George", "2122554510", "240 Seattle Ave", "June 23", "Main Note") %>
-<% entries = [myEntry1, myEntry2, myEntry3] %>
+<h1>Contacts List</h1>
+<% myEntry1 = Entry.new("Alex Huang", "415-298-1745", "5 Merrivale Rd ", "January 8", "9am-5pm", "silversurfer.jpg") %>
+<% myEntry2 = Entry.new("Billy Joel", "212-999-1010", "230 Washington Rd", "November 10", "11am-8pm", "hulk.jpg") %>
+<% myEntry3 = Entry.new("George Micheal", "212-255-4510", "240 Seattle Ave", "June 23", "3:30pm-7pm", "captainmarvel.jpg") %>
+<% myEntry4 = Entry.new("Lindsey", "212-232-4901", "213 Clinton Ave", "May 4", "6:30pm-11pm", "thor.jpg") %>
+
+<% entries = [myEntry1, myEntry2, myEntry3, myEntry4] %>
 <!-- need to call myEntries on an abstract level to group them all -->
 
-<% entries.each do |entry| %>
-	<h3><%= entry.address %></h3>
-	<h3><%= entry.getBirthday %></h3>
-	<h3><%= entry.getNotes %></h3>
-<% end %>
+<div class="span4">
+	<% entries.each do |entry| %>
+		<h4><%= entry.name %></h4>
+		<h4><%= entry.address %></h4>
+		<h4><%= entry.getSchedule %></h4>
+		<br/>
+	<% end %>
+</div>
